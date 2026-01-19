@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ishows OTA Distribution</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .version {
+            color: #666;
+            margin: 20px 0;
+        }
+        .install-btn {
+            display: inline-block;
+            background: #007AFF;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .note {
+            color: #888;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ishows</h1>
+    <p class="version">Version 1.0 (5)</p>
+    <a href="itms-services://?action=download-manifest&url=https://rbmny.github.io/ishows-ota/manifest.plist" class="install-btn">
+        Install App
+    </a>
+    <p class="note">
+        Open this page in Safari on your iOS device to install.<br>
+        Your device must be registered in the Ad Hoc provisioning profile.
+    </p>
+</body>
+</html>
